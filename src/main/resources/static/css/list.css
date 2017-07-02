@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+body{font-size: 18px;margin: 0;padding: 0}
+.body{width: 90%;margin: 0 auto;min-width: 900px;}
+.body .table {width: 100%;border-collapse: collapse;margin: 90px 0 0 0;}
+.body .table td {border: 1px solid #808080;text-align: center;}
+.body .table tr {height: 40px;}
+.body .table tr:NTH-CHILD(2n) {background-color: #e3ebf2;}
+.query{color:#434F5B;border-radius:20px;text-decoration: none;border: 1px #accef9 solid; background-color: #d9e4ee;padding: 2px 20px; }
+.queryTable{width: 800px;font-size: 20px;line-height: 78px;}
+.queryTable input {font-size: 20px;width: 200px;}
+.queryDiv{background-color: #ffffff;position: fixed;top: 0;left: 0;width: 100%;height: 80px;border-bottom: 5px solid #accef9;}
+.hidden{display: none;}
+.cover{position: fixed;top:0;left: 0;width: 100%;height: 100%;z-index: 100;background-color:rgba(130,130,130,0.6)}
+.cover .table{width: 400px;margin: 200px auto;background-color: white;padding: 20px;border-radius:20px }
+.cover table{width: 400px;}
+.query1{font-size:14px;color:#434F5B;border-radius:20px;text-decoration: none;border: 1px #accef9 solid; background-color: #d9e4ee;padding: 2px 20px; }
