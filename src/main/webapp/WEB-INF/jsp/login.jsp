@@ -10,7 +10,7 @@
 <link type="text/css" rel="stylesheet" href="/css/index.css"></link>
 <title>登录</title>
 </head>
-<body style="background-image: url('/image/background.png');">
+<body style="background-image: url('/image/background.jpg');">
 	<script type="text/javascript">
 		function submit() {
 			var password = hex_md5($("#password").val());

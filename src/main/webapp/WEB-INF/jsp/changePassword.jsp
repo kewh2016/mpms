@@ -9,7 +9,7 @@
 <script type="text/javascript" src="/js/md5.js"></script>
 <link type="text/css" rel="stylesheet" href="/css/list.css"></link>
 </head>
-<body style="background-image: url('/image/background.png');">
+<body style="background-image: url('/image/background.jpg');">
 	<script type="text/javascript">
 		function submit() {
 			var oldPassword = hex_md5($("#oldPassword").val());

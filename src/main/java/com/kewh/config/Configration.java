@@ -1,8 +1,7 @@
 package com.kewh.config;
 
-import java.io.File;
 import java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy;
-import org.apache.tomcat.jdbc.pool.DataSource;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
@@ -22,18 +21,6 @@ public class Configration extends WebMvcConfigurerAdapter {
 	threadPoolTaskExecutor.setQueueCapacity(20);
 	threadPoolTaskExecutor.setRejectedExecutionHandler(new CallerRunsPolicy());
 	return threadPoolTaskExecutor;
-    }
-
-    @Bean
-    public DataSource getDateSource() {
-	DataSource dataSource = new DataSource();
-	String path = "jdbc:h2:file:" + System.getProperty("user.dir") + File.separator + "db/mpms;AUTO_SERVER=TRUE";
-	path = path.replaceAll("\\\\", "/");
-	dataSource.setUrl(path);
-	dataSource.setUsername("root");
-	dataSource.setPassword("root");
-	dataSource.setDriverClassName("org.h2.Driver");
-	return dataSource;
     }
 
     public void addInterceptors(InterceptorRegistry registry) {
