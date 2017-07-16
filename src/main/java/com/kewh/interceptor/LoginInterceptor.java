@@ -1,4 +1,4 @@
-package com.suning.springjpa.interceptor;
+package com.kewh.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

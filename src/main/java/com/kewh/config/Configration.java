@@ -1,6 +1,5 @@
-package com.suning.springjpa.config;
+package com.kewh.config;
 
-import com.suning.springjpa.interceptor.LoginInterceptor;
 import java.io.File;
 import java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy;
 import org.apache.tomcat.jdbc.pool.DataSource;
@@ -9,6 +8,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import com.kewh.interceptor.LoginInterceptor;
 
 @Configuration
 public class Configration extends WebMvcConfigurerAdapter {

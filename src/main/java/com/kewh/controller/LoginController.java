@@ -1,8 +1,9 @@
-package com.suning.springjpa.controller;
+package com.kewh.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.suning.springjpa.dao.AdminDao;
-import com.suning.springjpa.entity.Admin;
+import com.kewh.dao.AdminDao;
+import com.kewh.entity.Admin;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;

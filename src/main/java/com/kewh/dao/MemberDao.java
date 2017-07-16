@@ -1,10 +1,11 @@
-package com.suning.springjpa.dao;
+package com.kewh.dao;
 
-import com.suning.springjpa.entity.Member;
 import java.util.List;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.kewh.entity.Member;
 
 @Repository
 public interface MemberDao extends JpaRepository<Member, Long> {

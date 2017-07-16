@@ -1,7 +1,5 @@
-package com.suning.springjpa.tool;
+package com.kewh.tool;
 
-import com.suning.springjpa.dao.MemberDao;
-import com.suning.springjpa.entity.Member;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,6 +9,9 @@ import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
+
+import com.kewh.dao.MemberDao;
+import com.kewh.entity.Member;
 
 @Component
 public class BakService {

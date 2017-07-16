@@ -1,7 +1,8 @@
-package com.suning.springjpa.service;
+package com.kewh.service;
 
-import com.suning.springjpa.entity.Product;
 import java.util.List;
+
+import com.kewh.entity.Product;
 
 public interface ProductService {
     List<Product> findProducts();

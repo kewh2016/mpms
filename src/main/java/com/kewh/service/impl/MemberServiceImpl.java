@@ -1,11 +1,5 @@
-package com.suning.springjpa.service.impl;
+package com.kewh.service.impl;
 
-import com.suning.springjpa.dao.MemberDao;
-import com.suning.springjpa.dao.PointChangeRecordDao;
-import com.suning.springjpa.entity.Member;
-import com.suning.springjpa.entity.PointChangeRecord;
-import com.suning.springjpa.exception.BizException;
-import com.suning.springjpa.service.MemberService;
 import java.util.Date;
 import java.util.List;
 import javax.transaction.Transactional;
@@ -15,6 +9,13 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.domain.Sort.Order;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import com.kewh.dao.MemberDao;
+import com.kewh.dao.PointChangeRecordDao;
+import com.kewh.entity.Member;
+import com.kewh.entity.PointChangeRecord;
+import com.kewh.exception.BizException;
+import com.kewh.service.MemberService;
 
 @Service
 public class MemberServiceImpl implements MemberService {

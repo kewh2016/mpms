@@ -1,4 +1,4 @@
-package com.suning.springjpa.entity;
+package com.kewh.entity;
 
 import java.util.Date;
 import javax.persistence.Entity;

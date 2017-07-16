@@ -1,4 +1,4 @@
-package com.suning.springjpa.entity;
+package com.kewh.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

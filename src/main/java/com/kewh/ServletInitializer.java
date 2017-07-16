@@ -1,8 +1,9 @@
-package com.suning.springjpa;
+package com.kewh;
 
-import com.suning.springjpa.SpringbootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+
+import com.kewh.SpringbootApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {

@@ -1,4 +1,4 @@
-package com.suning.springjpa.entity;
+package com.kewh.entity;
 
 import java.math.BigDecimal;
 import java.util.Date;

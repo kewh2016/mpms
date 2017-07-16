@@ -1,4 +1,4 @@
-package com.suning.springjpa.controller;
+package com.kewh.controller;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -14,16 +14,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSON;
-import com.suning.springjpa.dao.MemberDao;
-import com.suning.springjpa.dao.PointChangeRecordDao;
-import com.suning.springjpa.dao.ProductDao;
-import com.suning.springjpa.entity.Member;
-import com.suning.springjpa.entity.PointChangeRecord;
-import com.suning.springjpa.entity.Product;
-import com.suning.springjpa.exception.BizException;
-import com.suning.springjpa.service.MemberService;
-import com.suning.springjpa.service.ProductService;
-import com.suning.springjpa.tool.BakService;
+import com.kewh.dao.MemberDao;
+import com.kewh.dao.PointChangeRecordDao;
+import com.kewh.dao.ProductDao;
+import com.kewh.entity.Member;
+import com.kewh.entity.PointChangeRecord;
+import com.kewh.entity.Product;
+import com.kewh.exception.BizException;
+import com.kewh.service.MemberService;
+import com.kewh.service.ProductService;
+import com.kewh.tool.BakService;
 
 @Controller
 public class MemberController {

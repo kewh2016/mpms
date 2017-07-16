@@ -1,9 +1,10 @@
-package com.suning.springjpa.service;
+package com.kewh.service;
 
-import com.suning.springjpa.entity.Member;
-import com.suning.springjpa.exception.BizException;
 import java.util.List;
 import org.springframework.stereotype.Service;
+
+import com.kewh.entity.Member;
+import com.kewh.exception.BizException;
 
 @Service
 public interface MemberService {
